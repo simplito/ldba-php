@@ -1,0 +1,21 @@
+{
+    "name": "simplito/ldba-php",
+    "description": "LDBA is a high-performance, low-memory-footprint, single-file embedded database for key/value storage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simplito Team",
+            "email": "s.smyczynski@simplito.com",
+            "homepage": "https://simplito.com"
+        }
+    ],
+    "require": {
+        "simplito/pson-php": "~1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "simplito\\": "src"
+        },
+        "files": ["ldba.php"]
+    }
+}
