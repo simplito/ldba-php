@@ -828,7 +828,7 @@ class Slot {
         $objects = array();
         $buf = \PSON\ByteBuffer::wrap($value);
         if ($buf->remaining() == 0) {
-            $this->objects = array();
+            //$this->objects = array();
             return;
         }
         $objs = $buf->readUint16();
